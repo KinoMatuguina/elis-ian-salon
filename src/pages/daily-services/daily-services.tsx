@@ -4,7 +4,7 @@ import { useEffect } from 'react'
 import { db } from '@/firebase';
 
 export default function DailyServices({ data }: any) {
-
+  
     useEffect(() => {
       console.log(data);
     }, [])
