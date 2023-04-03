@@ -1,0 +1,28 @@
+{
+  "name": "elis-ian-salon",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "next build && next export && touch .nojekyll && npx gh-pages -d .next"
+  },
+  "dependencies": {
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.32",
+    "@types/react-dom": "18.0.11",
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.2.4",
+    "firebase": "^9.19.1",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.0.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
