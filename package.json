@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy": "next build && next export && touch .nojekyll && npx gh-pages -d .next"
+    "deploy": "next build && next export && touch .nojekyll && npx gh-pages -d out"
   },
   "dependencies": {
     "@types/node": "18.15.11",
